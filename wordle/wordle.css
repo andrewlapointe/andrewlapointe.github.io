@@ -1,0 +1,114 @@
+h1 {
+  display: inline-block;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font: bold;
+  font-size: 15;
+}
+.center {
+  text-align: center;
+  margin-left: 320px;
+  margin-right: 320px;
+}
+.left {
+  text-align: left;
+  margin-left: 5px;
+  font-size: 28px;
+}
+.right {
+  text-align: right;
+  margin-right: 5px;
+  font-size: 28px;
+}
+.main {
+  width: 940px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 0.75em;
+  font-weight: 700;
+}
+
+.line {
+  /* background: center white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d6da;
+  width: 100%;
+  height: 1px;
+  margin: 0px;
+}
+
+.box {
+  /* background: center white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+  padding: 10px black;
+  margin: 0px;
+}
+
+.container {
+  display: inline-grid;
+  margin-left: 290px;
+  margin-right: 290px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  row-gap: 5px;
+  column-gap: 5px;
+  grid-template-columns: repeat(5, 62px);
+  grid-template-rows: repeat(6, 62px);
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d3d6da;
+  width: 43px;
+  height: 58px;
+  margin: 0px;
+  border-radius: 5px;
+}
+.big_key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d3d6da;
+  width: 67px;
+  height: 58px;
+  margin: 0px;
+  border-radius: 5px;
+}
+.keyboard_row1 {
+  display: inline-grid;
+  margin-left: 215px;
+  /* margin-right: 210px; */
+  /* row-gap: 5px; */
+  column-gap: 5px;
+  grid-template-columns: repeat(10, 43px);
+  margin-bottom: 6px;
+}
+
+.keyboard_row2 {
+  display: inline-grid;
+  margin-left: 239px;
+  /* margin-right: 234px; */
+  column-gap: 5px;
+  grid-template-columns: repeat(9, 43px);
+  margin-bottom: 6px;
+}
+
+.keyboard_row3 {
+  display: inline-grid;
+  margin-left: 215px;
+  /* margin-right: 190; */
+  column-gap: 5px;
+  grid-template-columns: 67px repeat(7, 43px) 67px;
+}
