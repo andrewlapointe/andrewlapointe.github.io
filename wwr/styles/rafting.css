@@ -195,7 +195,7 @@ footer {
   transform: scale(1.1);
 }
 .msg {
-  background-color: #6f7364;
+  background-color: #e7c24f;
   padding: 35px;
   grid-column: 6/10;
   grid-row: 6/7;
