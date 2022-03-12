@@ -131,7 +131,7 @@ header {
 .button-box {
   font-family: var(--paragraph-font);
   color: white;
-  background-color: var(--paragraph-background-color);
+  /* background-color: var(--paragraph-background-color); */
   padding: 0.2em;
   border: #396e94;
   border-radius: 4px;
