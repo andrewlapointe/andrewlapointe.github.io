@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+
     <title>Home</title>
-</head>
-<header>
-      <a id="logo_link" href="https://andrewlapointe.github.io/decksanddecks/index.html">
+  </head>
+  <body>
+    <header>
+      <!-- <a id="logo_link" href="https://andrewlapointe.github.io/decksanddecks/index.html">
         <img
           src=""
           alt="logo"
           width=""
           height=""
         />
-      </a>
-      <nav>
+      </a> -->
+      <div id="navbar">
         <a href="https://andrewlapointe.github.io/decksanddecks/">Home</a>
-        <a href="https://andrewlapointe.github.io/decksanddecks/services.html">Services</a>
+        <a href="https://andrewlapointe.github.io/decksanddecks/services.html"
+          >Services</a
+        >
         <a href="contact.html">Contact Us</a>
-      </nav>
+      </div>
     </header>
     <main>
-        <h1>Hook</h1>
+      <h1>Hook</h1>
+      <div>
+        <img src="" alt="hero image" />
         <div>
-            <img src="" alt="hero image">
-            <div>
-                <p>contact button placeholder</p>
-            </div>
+          <p>contact button placeholder</p>
         </div>
-        <div>
-            <p>sidebar placeholder</p>
-            <p>testimonial placeholder</p>
-        </div>
+      </div>
+      <div>
+        <p>sidebar placeholder</p>
+        <p>testimonial placeholder</p>
+      </div>
     </main>
     <footer>
       <h3>Decks and Decks © 2022 - Andrew LaPointe</h3>
@@ -50,5 +55,28 @@
         </a>
       </div>
     </footer>
-</body>
+  </body>
+  <script>
+    console.log("word");
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function () {
+      myFunction();
+    };
+
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      console.log("word2");
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
 </html>
