@@ -10,7 +10,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px;
+  padding: 20px;
   text-decoration: none;
 }
 
@@ -31,15 +31,15 @@
   padding-top: 60px;
 }
 
-button {
-  justify-items: center;
-}
+/* button {
+  justify-content: center;
+} */
 
 .btn {
   float: right;
   border: none; /* Remove borders */
   color: white; /* Add a text color */
-  padding: 14px 28px; /* Add some padding */
+  padding: 21px 28px; /* Add some padding */
   cursor: pointer; /* Add a pointer cursor on mouse-over */
 }
 .info {
