@@ -30,3 +30,21 @@
 .sticky + .content {
   padding-top: 60px;
 }
+
+button {
+  justify-items: center;
+}
+
+.btn {
+  float: right;
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+.info {
+  background-color: #2196f3;
+} /* Blue */
+.info:hover {
+  background: #0b7dda;
+}
