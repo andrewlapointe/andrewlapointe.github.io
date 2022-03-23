@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/slideshow.css" />
+    <link rel="stylesheet" href="styles/homepage.css" />
 
     <title>Home</title>
   </head>
   <body>
     <header>
       <div id="navbar" style="z-index: 10000000">
-        <a href="https://andrewlapointe.github.io/decksanddecks/">Home</a>
-        <a href="https://andrewlapointe.github.io/decksanddecks/services.html"
-          >Services</a
-        >
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
         <a href="contact.html">Contact Us</a>
-        <button href="contact.html" class="btn info">Request Quote</button>
+        <button onclick="window.location.href='contact.html';" class="btn info">
+          Request Quote
+        </button>
       </div>
     </header>
     <main>
@@ -28,19 +29,19 @@
         <div class="mySlides fade">
           <div class="numbertext">1 / 3</div>
           <img src="images\2700317164_885e26ba51_b.jpg" style="width: 100%" />
-          <div class="text">The only</div>
+          <div class="text"></div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">2 / 3</div>
           <img src="images\3620901350_19515e631c_b.jpg" style="width: 100%" />
-          <div class="text">Caption Two</div>
+          <div class="text"></div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">3 / 3</div>
-          <img src="images\2700317164_885e26ba51_b.jpg" style="width: 100%" />
-          <div class="text">Caption Three</div>
+          <img src="images\5821718628_75afd132ee_b.jpg" style="width: 100%" />
+          <div class="text"></div>
         </div>
 
         <!-- Next and previous buttons -->
@@ -56,14 +57,11 @@
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
       <div>
-        <p>sidebar placeholder</p>
-        <p>testimonial placeholder</p>
+        <h2>The best deck service in the DMV!</h2>
       </div>
     </main>
     <footer>
-      <h3>Decks and Decks © 2022 - Andrew LaPointe</h3>
-      <h3><a href="site-plan.html">Site Plan</a></h3>
-      <h3><a href="">Contact Us</a></h3>
+      <p>Decks and Decks © 2022 - Andrew LaPointe</p>
       <div class="social">
         <a href="https://facebook.com" target="_blank">
           <img src="images/facebook.png" alt="fb icon" />
@@ -75,6 +73,7 @@
           <img src="images/instagram.png" alt="instagram icon" />
         </a>
       </div>
+      <p><a href="site-plan.html">Site Plan</a></p>
     </footer>
   </body>
   <script src="javascript/slideshow.js"></script>

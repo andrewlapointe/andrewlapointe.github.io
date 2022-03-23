@@ -1,0 +1,17 @@
+h2 {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+p {
+  display: grid;
+  justify-content: center;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: 64px 64px 64px;
+  justify-content: center;
+}

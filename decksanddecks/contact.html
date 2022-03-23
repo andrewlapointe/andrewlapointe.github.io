@@ -4,52 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
     <title>Contact</title>
 </head>
+<!-- navagation bar -->
 <header>
-      <a id="logo_link" href="https://andrewlapointe.github.io/decksanddecks/index.html">
-        <img
-          src=""
-          alt="logo"
-          width=""
-          height=""
-        />
-      </a>
-      <nav>
-        <a href="https://andrewlapointe.github.io/decksanddecks/">Home</a>
-        <a href="https://andrewlapointe.github.io/decksanddecks/services.html">Services</a>
-        <a href="contact.html"
-          >Contact Us</a
+      <div id="navbar" style="z-index: 10000000">
+        <a href="index.html">Home</a>
+        <a href="services.html"
+          >Services</a
         >
-      </nav>
+        <a href="contact.html">Contact Us</a>
+        <button href="contact.html" class="btn info">Request Quote</button>
+      </div>
     </header>
+    <!-- form -->
     <main>
-       <div id="feedback"></div>
-    <form action="/my-handling-form-page" method="post">
-      <ul>
-        <li>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="user_name" />
-        </li>
-        <li>
-          <label for="mail">E-mail:</label>
-          <input type="email" id="mail" name="user_email" />
-        </li>
-        <li>
-          <label for="msg">Message:</label>
-          <textarea id="msg" name="user_message"></textarea>
-        </li>
+     <div class="container">
+  <form action="action_page.php">
 
-        <li class="button">
-          <button type="submit">Send your message</button>
-        </li>
-      </ul>
-    </form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="Query">Query Type</label>
+    <select id="Query" name="Query">
+      <option value="Quote">Quote Request</option>
+      <option value="Question">Question</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
     </main>
     <footer>
-      <h3>Decks and Decks © 2022 - Andrew LaPointe</h3>
-      <h3><a href="site-plan.html">Site Plan</a></h3>
-      <h3><a href="">Contact Us</a></h3>
+      <p>Decks and Decks © 2022 - Andrew LaPointe</p>
+      <p><a href="site-plan.html">Site Plan</a></p>
       <div class="social">
         <a href="https://facebook.com" target="_blank">
           <img src="images/facebook.png" alt="fb icon" />
@@ -62,5 +61,6 @@
         </a>
       </div>
     </footer>
+    <script src="javascript/stickynav.js"></script>
 </body>
 </html>
