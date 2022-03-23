@@ -15,3 +15,31 @@ p {
   grid-template-columns: 64px 64px 64px;
   justify-content: center;
 }
+#oogabooga {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #f2f2f2;
+}
+
+#oogabooga p {
+  font-size: x-large;
+}
+
+#marketingbs {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-bottom: 100px;
+  width: 80%;
+  justify-items: center;
+}
+
+#marketingbs p {
+  font-size: larger;
+}
+
+#marketingbs img {
+  max-width: 200px;
+  margin-right: 20px;
+}

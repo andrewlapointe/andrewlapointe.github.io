@@ -24,6 +24,22 @@
   font-weight: bold;
 }
 
+#logo {
+  padding: 0px;
+  margin: 0px;
+  height: 40px;
+}
+
+#navbar b {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 9.2px;
+  margin-left: 10px;
+}
+
 /* Page content */
 .content {
   padding: 16px;
