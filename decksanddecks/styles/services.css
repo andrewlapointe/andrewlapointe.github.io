@@ -7,7 +7,7 @@ body {
   grid-template-columns: 400px 4fr;
   /* grid-template-rows: repeat(5, 1fr); */
   /* column-gap: 20px; */
-  row-gap: 20px;
+  row-gap: 50px;
 }
 
 .content img {
