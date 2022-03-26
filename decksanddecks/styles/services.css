@@ -4,7 +4,7 @@ body {
 
 .content {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 400px 4fr;
   /* grid-template-rows: repeat(5, 1fr); */
   /* column-gap: 20px; */
   row-gap: 20px;
@@ -16,9 +16,12 @@ body {
   max-height: fit-content;
   margin: 20px auto;
   margin-left: 50px;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
 }
 
-.content h2 {
+h2 {
   margin-top: 30px;
   color: #0b7dda;
 }
@@ -30,7 +33,18 @@ body {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin: 20px auto;
   margin-bottom: 16px; /* Bottom margin */
-  padding-left: 10px;
+  padding-left: 15px;
+  background-color: white;
+}
+
+#note {
+  width: 80%;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin: 20px auto;
+  margin-bottom: 16px; /* Bottom margin */
+  padding-left: 15px;
   background-color: white;
 }
 
@@ -48,4 +62,36 @@ footer p {
   display: grid;
   grid-template-columns: 64px 64px 64px;
   justify-content: center;
+}
+
+.repair_img {
+  background: url(/images/R.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  background-position: bottom left;
+}
+
+.new_deck_img {
+  background: url(/images/500px-Backyard_deck.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  background-position: bottom left;
+}
+
+.boards_img {
+  background: url(/images/cropped_boards.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  background-position: bottom left;
+}
+
+.fence2_img {
+  background: url(/images/fence2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  background-position: bottom left;
 }
