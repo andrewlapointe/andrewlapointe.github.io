@@ -65,7 +65,7 @@ footer p {
 }
 
 .repair_img {
-  background: url(images/R.jpg);
+  background: url(/images/R.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 250px;
@@ -73,7 +73,7 @@ footer p {
 }
 
 .new_deck_img {
-  background: url(images/500px-Backyard_deck.jpg);
+  background: url(/images/500px-Backyard_deck.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 250px;
@@ -81,7 +81,7 @@ footer p {
 }
 
 .boards_img {
-  background: url(images/cropped_boards.jpg);
+  background: url(/images/cropped_boards.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 250px;
@@ -89,7 +89,7 @@ footer p {
 }
 
 .fence2_img {
-  background: url(images/fence2.jpg);
+  background: url(/images/fence2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 250px;
