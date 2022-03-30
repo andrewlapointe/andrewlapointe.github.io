@@ -95,3 +95,7 @@ footer p {
   min-height: 250px;
   background-position: bottom left;
 }
+
+main {
+  margin-top: 60px;
+}

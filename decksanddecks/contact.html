@@ -1,54 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/form.css" />
     <link rel="stylesheet" href="styles/contact.css" />
-    <link rel="icon" href="images/hammer_logo.png">
+    <link rel="icon" href="images/hammer_logo.png" />
     <title>Contact</title>
-</head>
-<!-- navagation bar -->
-<header>
+  </head>
+  <body>
+    <!-- navagation bar -->
+    <header>
       <div id="navbar" style="z-index: 10000000">
         <a href="index.html">Home</a>
-        <a href="services.html"
-          >Services</a
-        >
+        <a href="services.html">Services</a>
         <a href="contact.html">Contact Us</a>
-        <b
-          ><img id="logo" src="images/hammer_logo.png" alt="hammer"
-        /></b>
-        <button onclick="window.location.href='contact.html';" class="btn info">Request Quote</button>
+        <b><img id="logo" src="images/hammer_logo.png" alt="hammer" /></b>
+        <button onclick="window.location.href='contact.html';" class="btn info">
+          Request Quote
+        </button>
       </div>
     </header>
     <!-- form -->
     <main>
-     <div class="container">
-  <form action="action_page.php">
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="Query">Query Type</label>
+          <select id="Query" name="Query">
+            <option value="Quote">Quote Request</option>
+            <option value="Question">Question</option>
+            <option value="Other">Other</option>
+          </select>
 
-    <label for="Query">Query Type</label>
-    <select id="Query" name="Query">
-      <option value="Quote">Quote Request</option>
-      <option value="Question">Question</option>
-      <option value="Other">Other</option>
-    </select>
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 180px"
+          ></textarea>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:180px"></textarea>
+          <!-- <input type="submit" value="Submit"> -->
+        </form>
+        <button onclick="myFunction()">Submit</button>
 
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
+        <!-- The actual snackbar -->
+        <div id="snackbar">Sorry! This form doesn't work yet.</div>
+      </div>
     </main>
     <footer>
       <p>Decks and Decks © 2022 - Andrew LaPointe</p>
@@ -66,5 +82,6 @@
       </div>
     </footer>
     <!-- <script src="javascript/stickynav.js"></script> -->
-</body>
+    <script src="javascript/snackbar.js"></script>
+  </body>
 </html>

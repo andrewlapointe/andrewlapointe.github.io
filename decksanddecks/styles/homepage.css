@@ -43,3 +43,7 @@ p {
   max-width: 200px;
   margin-right: 20px;
 }
+
+main {
+  margin-top: 60px;
+}
