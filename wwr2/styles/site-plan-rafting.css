@@ -24,6 +24,12 @@ Fonts are separated by a | */
   --nav-hover-background-color: #396e94;
 }
 
+/* @font-face {
+  font-family: myFirstFont;
+  src: url(wwr2/styles/fonts/Roboto-Black.ttf);
+
+} */
+
 body {
   max-width: 960px;
   margin: 0 auto;
