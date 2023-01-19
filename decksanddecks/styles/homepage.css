@@ -15,33 +15,46 @@ p {
   grid-template-columns: 64px 64px 64px;
   justify-content: center;
 }
-#oogabooga {
+#bottom_format {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #f2f2f2;
 }
 
-#oogabooga p {
+#bottom_format p {
   font-size: x-large;
 }
 
-#marketingbs {
+#mission {
   display: grid;
   grid-template-columns: 1fr 4fr;
   margin-top: 80px;
   margin-left: 10%;
   margin-bottom: 100px;
   width: 80%;
-  justify-items: center;
+  /* justify-items: center; */
+  place-items: center;
 }
 
-#marketingbs p {
+#mission p {
+  margin-top: -10px;
+  padding-top: 0;
   font-size: larger;
+  border-left: 4px solid #2196f3;
+  padding-left: 10px;
 }
 
-#marketingbs img {
-  max-width: 200px;
+#mission img {
+  max-width: 170px;
+  margin-left: 20px;
   margin-right: 20px;
+  /* margin-right: 20px; */
+  place-items: center;
+}
+
+#mission h3 {
+  /* margin-bottom: 30px; */
+  font-size: 24px;
 }
 
 main {
