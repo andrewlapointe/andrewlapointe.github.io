@@ -1,0 +1,104 @@
+:root {
+  --primary-color: #001427;
+  --secondary-color: #708d81;
+  --accent-one: #f4d58d;
+  --accent-two: #bf0603;
+  --accent-three: #8d0801;
+}
+
+.content {
+  max-width: 1600px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+nav a {
+  text-align: center;
+  color: var(--primary-color);
+}
+nav a:hover {
+  background-color: var(--accent-one);
+  color: var(--accent-two);
+}
+#hero-msg h1,
+#hero-msg h4 {
+  text-align: center;
+}
+h4 {
+  color: var(--primary-color);
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
+
+#background {
+  height: 725px;
+  background-color: var(--secondary-color);
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+header {
+  background-color: var(--secondary-color);
+}
+
+.book,
+.join {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.book:hover,
+.join:hover {
+  background-color: var(--accent-one);
+  color: var(--accent-two);
+}
+
+.msg {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+h2 {
+  color: var(--primary-color);
+}
+footer {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+footer a {
+  color: var(--primary-color);
+}
+
+footer a:hover {
+  background-color: var(--accent-one);
+  color: var(--accent-two);
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+.home-title {
+  color: var(--primary-color);
+}
+
+.msg p {
+  color: var(--primary-color);
+}
+
+.logo {
+  width: 80px;
+}
+
+.icon {
+  width: 80px;
+}
