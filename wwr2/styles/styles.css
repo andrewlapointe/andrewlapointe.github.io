@@ -21,6 +21,9 @@ nav a:hover {
   background-color: var(--accent-one);
   color: var(--accent-two);
 }
+nav img {
+  text-align: left;
+}
 #hero-msg h1,
 #hero-msg h4 {
   text-align: center;
@@ -96,6 +99,7 @@ footer p a:hover {
 }
 
 .logo {
+  display: block;
   width: 80px;
 }
 
