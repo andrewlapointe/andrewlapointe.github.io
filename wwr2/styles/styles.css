@@ -190,13 +190,12 @@ main section img {
 div#content-page2 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
-  grid-template-rows: repeat(minmax(0, 400px));
-  background-color: var(--accent-one);
+  /* grid-template-rows: minmax(0, 400px); */
+  background-color: #97b6a9;
   color: white;
   border: 10px black;
   text-align: left;
   position: relative;
-  margin-top: 50px;
   margin-bottom: -60px;
   padding-top: 50px;
   padding-bottom: 50px;
