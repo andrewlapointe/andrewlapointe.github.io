@@ -230,7 +230,7 @@ footer {
   margin-top: 150px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
 }
 footer .social img {
   padding-top: 15px;
